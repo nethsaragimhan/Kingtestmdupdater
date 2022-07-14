@@ -11,6 +11,13 @@ global.APIKeys = {
 	'https://zenzapis.xyz': 'sanzychan01', //credit goes to sanzy yt, if api key expire, buy it and put it here?\\
 }
 
+global.HEROKU = {
+    API: process.env.HEROKU_API,
+    NAME : process.env.APP_NAME,
+    STATUS : true
+}
+global.BRANCH = 'master'
+
 //customize settings\\
 global.owner = ['94729352830']
 global.premium = ['94729352830']
